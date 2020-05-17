@@ -17,8 +17,9 @@ var wall_options={
 
 rectMode(CENTER);
 
-  bullet_speed=random(225,320);
+  bullet_speed=random(25,85);
  bullet_weight=random(30,55);
+ bullet.shapeColor="blue";
 }
 
 function draw() {
